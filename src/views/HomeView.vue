@@ -1,9 +1,20 @@
-<script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+<template>
+  <div class="welcome">
+    <div>Добро пожаловать!</div>
+  </div>
+</template>
+
+<script>
+export default {};
 </script>
 
-<template>
-  <main>
-    <TheWelcome />
-  </main>
-</template>
+<style scoped>
+.welcome {
+  height: calc(100vh - 70px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  background-color: bisque;
+}
+</style>
