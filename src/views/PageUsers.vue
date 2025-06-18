@@ -5,7 +5,7 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import { mapGetters, mapActions, mapMutations } from "vuex";
 import UserList from "./../components/UserList.vue";
 
