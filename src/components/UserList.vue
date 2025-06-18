@@ -6,7 +6,7 @@
   </div>
 
   <div>
-    <user-item v-for="user in users" :user="user" :key="user.id" />
+    <user-item v-for="user in users" :user:any="user" :key="user.id" />
   </div>
 </template>
 
