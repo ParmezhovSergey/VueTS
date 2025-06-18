@@ -1,6 +1,6 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-import PageUsers from '@/views/PageUsers.vue'
+import { createRouter, createWebHistory } from 'vue-router';
+import HomeView from '../views/HomeView.vue';
+import PageUsers from './../views/PageUsers.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
