@@ -1,5 +1,5 @@
 import { createStore } from "vuex";
-import { usersModule } from "./UsersModule";
+import { usersModule } from "./usersModule.ts";
 
 
 
